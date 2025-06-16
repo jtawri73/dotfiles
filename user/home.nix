@@ -7,6 +7,7 @@
   imports = [
     inputs.nvf.homeManagerModules.nvf
 
+    ./gtk.nix
     ./programs
     ./services
   ];
