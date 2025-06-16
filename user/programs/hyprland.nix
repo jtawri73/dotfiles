@@ -30,6 +30,16 @@ in {
         shadow.enabled = false;
       };
 
+      # Animations
+      animations = {
+        enabled = true;
+        animation = [
+          "workspaces, 0"
+          "global, 1, 3, default"
+          "windows, 1, 3, default, popin 87%"
+        ];
+      };
+
       # Monitors
       monitor = [
         "eDP-1,disable"
