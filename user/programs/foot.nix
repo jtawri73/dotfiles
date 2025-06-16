@@ -13,6 +13,7 @@ in {
     enable = true;
     settings = {
       main = {
+        pad = "4x4 center";
         font = "${font}:size=${builtins.toString size}";
       };
       cursor = {
