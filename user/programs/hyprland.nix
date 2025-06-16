@@ -40,6 +40,12 @@ in {
         ];
       };
 
+      # Ecosystem
+      ecosystem = {
+        no_update_news = true;
+        no_donation_nag = true;
+      };
+
       # Monitors
       monitor = [
         "eDP-1,disable"
