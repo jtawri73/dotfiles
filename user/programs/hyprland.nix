@@ -13,6 +13,23 @@ in {
       "$mod" = "SUPER";
       "$modShift" = "$mod SHIFT";
 
+      # General
+      general = {
+        border_size = 2;
+        "col.inactive_border" = "rgb(2e3440)";
+        "col.active_border" = "rgb(8fbcbb)";
+
+        gaps_in = 4;
+        gaps_out = 4;
+      };
+
+      # Decoration
+      decoration = {
+        rounding = 4;
+        blur.enabled = true;
+        shadow.enabled = false;
+      };
+
       # Monitors
       monitor = [
         "eDP-1,disable"
