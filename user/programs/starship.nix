@@ -6,6 +6,7 @@
   programs.starship = {
     enable = true;
     settings = {
+      format = "$directory$git_branch$git_state$git_status\n$character";
       character = {
         success_symbol = "[](bold green)";
         error_symbol = "[](bold red)";
