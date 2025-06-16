@@ -60,6 +60,9 @@ in {
 
           "$mod, Q, killactive"
 
+          "$mod, Comma, workspace, e-1"
+          "$mod, Period, workspace, e+1"
+
           "$mod, X, exec, reboot"
           "$modShift, X, exec, poweroff"
         ]
