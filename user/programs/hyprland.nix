@@ -60,6 +60,11 @@ in {
 
           "$mod, Q, killactive"
 
+          "$mod, H, movefocus, l"
+          "$mod, J, movefocus, d"
+          "$mod, K, movefocus, u"
+          "$mod, L, movefocus, r"
+
           "$mod, Comma, workspace, e-1"
           "$mod, Period, workspace, e+1"
 
