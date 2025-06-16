@@ -65,6 +65,11 @@ in {
           "$mod, K, movefocus, u"
           "$mod, L, movefocus, r"
 
+          "$modShift, H, movewindow, l"
+          "$modShift, J, movewindow, d"
+          "$modShift, K, movewindow, u"
+          "$modShift, L, movewindow, r"
+
           "$mod, Comma, workspace, e-1"
           "$mod, Period, workspace, e+1"
 
