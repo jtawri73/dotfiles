@@ -21,6 +21,9 @@
           treesitter.enable = true;
         };
       };
+      statusline.lualine = {
+        enable = true;
+      };
     };
   };
 }
