@@ -6,7 +6,7 @@
   programs.starship = {
     enable = true;
     settings = {
-      format = "$directory$git_branch$git_state$git_status\n$character";
+      format = "$directory$git_branch$git_state$git_status$nix_shell\n$character";
       character = {
         success_symbol = "[](bold green)";
         error_symbol = "[](bold red)";
@@ -31,6 +31,10 @@
         renamed = "[ $count](bold green) ";
         deleted = "[ $count](bold red) ";
         style = "bold purple";
+      };
+      nix_shell = {
+        format = ''via [$symbol$name \($state\)]($style) '';
+        symbol = " ";
       };
     };
   };
